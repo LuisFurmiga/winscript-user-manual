@@ -82,7 +82,7 @@ O WinScript reúne essas opções em categorias como **Tools**, **Debloat**, **P
 > **Importante:** o WinScript não é um programa que “aumenta magicamente” a velocidade do computador. Ele aplica alterações reais no Windows. Algumas podem melhorar o desempenho, enquanto outras podem remover funções utilizadas pelo usuário ou reduzir a segurança do sistema. Portanto, selecione somente as opções que você entende e realmente necessita.
 
 ---
-
+<a name="publico"></a>
 ## 2. Para quem este guia é indicado?
 
 Este guia foi preparado para dois públicos:
@@ -112,11 +112,11 @@ Profissionais que desejam:
 * gerar scripts para uso em diferentes máquinas.
 
 ---
-
+<a name="preparacao"></a>
 ## 3. O que fazer antes de usar o WinScript
 
 Antes de executar qualquer otimização, faça uma preparação básica do computador.
-
+<a name="backup"></a>
 ### 3.1 Salve os arquivos importantes
 
 Faça uma cópia dos documentos, fotografias, planilhas, arquivos de trabalho e outros dados importantes.
@@ -130,7 +130,7 @@ O backup pode ser realizado em:
 * outro computador.
 
 Um ponto de restauração ajuda a recuperar configurações do sistema, mas **não substitui um backup completo dos arquivos pessoais**.
-
+<a name="atualizar-windows"></a>
 ### 3.2 Atualize o Windows
 
 Antes da otimização:
@@ -150,7 +150,7 @@ Também é recomendável atualizar os drivers importantes, especialmente:
 * armazenamento.
 
 Em notebooks e computadores de fabricantes conhecidos, dê preferência aos drivers fornecidos pelo fabricante do equipamento.
-
+<a name="ponto-restauracao"></a>
 ### 3.3 Crie um ponto de restauração
 
 A Microsoft recomenda habilitar a Proteção do Sistema para que seja possível recuperar o Windows após alterações problemáticas. Um ponto de restauração registra arquivos do sistema, programas instalados, configurações e partes do Registro do Windows.
@@ -179,7 +179,7 @@ Antes do WinScript
 10. Aguarde a confirmação da criação.
 
 O próprio WinScript também possui uma opção chamada **Create Restore Point**, localizada na categoria **Tools**. Entretanto, é recomendável verificar previamente se a Proteção do Sistema está ativada.
-
+<a name="configuracao-atual"></a>
 ### 3.4 Anote a configuração atual
 
 Antes das mudanças, registre informações como:
@@ -199,11 +199,11 @@ Antes das mudanças, registre informações como:
 Esse registro facilita a identificação de eventuais problemas depois da otimização.
 
 ---
-
+<a name="formas-utilizacao"></a>
 ## 4. Formas de utilizar o WinScript
 
 Existem três formas principais de utilizar a ferramenta.
-
+<a name="aplicativo-desktop"></a>
 ## 4.1 Aplicativo para desktop
 
 A versão para desktop é a alternativa mais simples para a maioria dos usuários.
@@ -234,7 +234,7 @@ Depois da instalação:
 4. Selecione **Executar como administrador**.
 
 O acesso administrativo é necessário porque diversas alterações afetam componentes e configurações protegidas do Windows.
-
+<a name="versao-online"></a>
 ## 4.2 Versão on-line
 
 A versão on-line permite montar a configuração diretamente no navegador.
@@ -251,7 +251,7 @@ O processo geral é:
 A versão on-line oferece categorias semelhantes às do aplicativo, incluindo ferramentas de limpeza, reparo, privacidade, desempenho e instalação de aplicativos.
 
 > **Recomendação para técnicos:** salve uma cópia do script gerado e registre a versão do WinScript utilizada. Isso facilita auditorias, suporte e repetição do procedimento.
-
+<a name="execucao-powershell"></a>
 ## 4.3 Execução direta pelo PowerShell
 
 A documentação também apresenta um comando que baixa e executa o WinScript diretamente:
@@ -276,9 +276,9 @@ Embora seja um método prático, ele executa código obtido da internet diretame
 Para usuários menos experientes, é preferível utilizar o aplicativo instalado pelo Winget ou gerar e revisar o script antes da execução.
 
 ---
-
+<a name="categorias-winscript"></a>
 ## 5. Conhecendo as categorias do WinScript
-
+<a name="tools"></a>
 ## 5.1 Tools — manutenção e recuperação
 
 A categoria **Tools** reúne funções de manutenção do computador.
@@ -338,7 +338,7 @@ Use com cuidado, pois isso pode remover informações que o usuário deseja mant
 A versão on-line lista, entre suas ferramentas, limpeza, reparo, criação de ponto de restauração, limpeza de histórico e redefinição de rede.
 
 ---
-
+<a name="debloat"></a>
 ## 5.2 Debloat — remoção de aplicativos e componentes
 
 O termo **debloat** significa remover ou desativar componentes considerados desnecessários.
@@ -435,7 +435,7 @@ Remova apenas aquilo que:
 4. consegue reinstalar posteriormente.
 
 ---
-
+<a name="privacy"></a>
 ## 5.3 Privacy — configurações de privacidade
 
 A categoria **Privacy** modifica permissões e comportamentos relacionados ao acesso de aplicativos aos dados do usuário.
@@ -493,7 +493,7 @@ Não bloqueie localização quando o usuário utiliza:
 Para computadores corporativos, qualquer mudança de privacidade deve ser compatível com as políticas da organização.
 
 ---
-
+<a name="telemetry"></a>
 ## 5.4 Telemetry — coleta de dados e diagnósticos
 
 A telemetria corresponde ao envio de dados de diagnóstico, uso e funcionamento do sistema.
@@ -545,7 +545,7 @@ Para empresas, não aplique essas alterações sem verificar:
 * requisitos legais e contratuais.
 
 ---
-
+<a name="gaming"></a>
 ## 5.5 Gaming — ajustes para jogos
 
 A categoria **Gaming** reúne alterações direcionadas a computadores utilizados para jogos.
@@ -607,7 +607,7 @@ Dependendo do computador, do driver e do jogo, ativar ou desativar esse recurso 
 Não existe uma configuração universal. Teste o mesmo jogo, na mesma cena e com as mesmas opções gráficas antes de decidir.
 
 ---
-
+<a name="performance"></a>
 ## 5.6 Performance — desempenho
 
 A categoria **Performance** concentra algumas das alterações mais sensíveis da ferramenta.
@@ -759,7 +759,7 @@ Portanto:
 * qualquer teste deve ser acompanhado de medição e análise de risco.
 
 ---
-
+<a name="miscellaneous"></a>
 ## 5.7 Miscellaneous — ajustes diversos
 
 A categoria **Miscellaneous** reúne personalizações e comportamentos que não se encaixam nas demais categorias.
@@ -787,7 +787,7 @@ Antes de selecionar uma opção, pergunte:
 * Será fácil restaurar a configuração?
 
 ---
-
+<a name="browse-apps"></a>
 ## 5.8 Browse Apps — instalação de programas
 
 A categoria **Browse Apps** permite selecionar vários programas e gerar um script para instalá-los automaticamente.
@@ -833,7 +833,7 @@ Antes de selecionar um aplicativo, confirme:
 * se não existe uma política corporativa de instalação.
 
 ---
-
+<a name="procedimento-iniciantes"></a>
 ## 6. Procedimento recomendado para usuários iniciantes
 
 A configuração abaixo busca melhorar organização, privacidade e manutenção sem aplicar alterações extremas.
@@ -915,11 +915,11 @@ Para iniciantes:
 6. Reinicie o Windows ao terminar.
 
 ---
-
+<a name="procedimento-tecnicos"></a>
 ## 7. Procedimento recomendado para técnicos
 
 Para uso profissional, aplique uma metodologia controlada.
-
+<a name="levantamento-equipamento"></a>
 ### 7.1 Faça o levantamento do equipamento
 
 Registre:
@@ -941,7 +941,7 @@ Aplicativos essenciais:
 Recursos especiais:
 Data da intervenção:
 ```
-
+<a name="estabelecer-objetivo"></a>
 ### 7.2 Estabeleça o objetivo
 
 Exemplos:
@@ -956,7 +956,7 @@ Exemplos:
 * automatizar a instalação de programas.
 
 Não aplique o mesmo conjunto de alterações em todos os computadores.
-
+<a name="perfis"></a>
 ### 7.3 Crie perfis diferentes
 
 Uma assistência técnica pode manter perfis como:
@@ -993,7 +993,7 @@ Uma assistência técnica pode manter perfis como:
 * verificação de saúde do disco;
 * plano de energia adequado;
 * manutenção da segurança.
-
+<a name="exportar-configuracao"></a>
 ### 7.4 Exporte a configuração
 
 Quando disponível, utilize o recurso de exportação do WinScript.
@@ -1022,7 +1022,7 @@ Exemplo apresentado pelo projeto:
 ```powershell
 winscript.exe -i "C:\caminho\config.json"
 ```
-
+<a name="testes"></a>
 ### 7.5 Teste antes de implantar
 
 Antes de usar o perfil em vários computadores:
