@@ -1041,17 +1041,17 @@ Antes de usar o perfil em vários computadores:
 12. valide o desempenho com medições.
 
 ---
-
+<a name="avaliar-melhoria"></a>
 ## 8. Como avaliar se houve melhoria
 
 A sensação de velocidade pode ser enganosa. Sempre que possível, faça medições antes e depois.
-
+<a name="tempo-inicializacao"></a>
 ## 8.1 Tempo de inicialização
 
 Meça o tempo desde o acionamento do computador até o sistema estar pronto para uso.
 
 Repita o teste pelo menos três vezes.
-
+<a name="uso-memoria"></a>
 ## 8.2 Uso de memória
 
 Abra o **Gerenciador de Tarefas** e observe:
@@ -1062,7 +1062,7 @@ Abra o **Gerenciador de Tarefas** e observe:
 * programas com alto consumo.
 
 Espere alguns minutos após entrar no Windows antes de registrar os valores.
-
+<a name="uso-processador"></a>
 ## 8.3 Uso de processador
 
 Com o computador parado, observe se existem processos consumindo processador continuamente.
@@ -1075,7 +1075,7 @@ Um uso momentâneo pode ocorrer por:
 * sincronização;
 * instalação de drivers;
 * manutenção automática.
-
+<a name="uso-disco"></a>
 ## 8.4 Uso do disco
 
 Observe no Gerenciador de Tarefas:
@@ -1096,7 +1096,7 @@ Uso constante de 100% pode indicar:
 * programas problemáticos.
 
 Nesses casos, somente um script de otimização pode não resolver a causa.
-
+<a name="temperatura"></a>
 ## 8.5 Temperatura
 
 Em computadores com superaquecimento, o processador pode reduzir automaticamente a velocidade.
@@ -1110,7 +1110,7 @@ Verifique:
 * temperatura do processador e da placa de vídeo.
 
 Ativar um plano de desempenho máximo em um computador superaquecendo pode piorar o problema.
-
+<a name="testes-jogos"></a>
 ## 8.6 Jogos
 
 Para jogos, compare:
@@ -1133,7 +1133,7 @@ Utilize sempre:
 * condições semelhantes.
 
 ---
-
+<a name="limitacoes"></a>
 ## 9. O que o WinScript não consegue resolver
 
 O WinScript pode ajudar na configuração do sistema, mas não corrige todos os tipos de lentidão.
@@ -1169,7 +1169,7 @@ A prioridade deve ser identificar e remover a ameaça. Não utilize otimização
 É necessário resolver a refrigeração antes de ativar modos de alto desempenho.
 
 ---
-
+<a name="alteracoes-evitar"></a>
 ## 10. Alterações que devem ser evitadas por usuários iniciantes
 
 Não é recomendável selecionar, sem conhecimento técnico:
@@ -1190,7 +1190,7 @@ Não é recomendável selecionar, sem conhecimento técnico:
 > Quanto maior o número de alterações aplicadas ao mesmo tempo, mais difícil será descobrir qual delas causou um problema.
 
 ---
-
+<a name="aplicar-seguranca"></a>
 ## 11. Como aplicar alterações com segurança
 
 Use o princípio de alterações graduais:
@@ -1216,17 +1216,17 @@ Grupo 5: jogos e personalizações
 Essa abordagem torna a solução de problemas muito mais simples.
 
 ---
-
+<a name="desfazer-alteracoes"></a>
 ## 12. Como desfazer alterações
 
 A forma de reversão depende da alteração realizada.
-
+<a name="opcao-inversa"></a>
 ### 12.1 Usar a opção inversa no WinScript
 
 Algumas configurações podem oferecer ações para ativar ou restaurar um recurso.
 
 Abra novamente o WinScript, localize a opção e verifique se há uma configuração inversa.
-
+<a name="reinstalar-aplicativo"></a>
 ### 12.2 Reinstalar um aplicativo
 
 Aplicativos removidos podem ser reinstalados por:
@@ -1235,7 +1235,7 @@ Aplicativos removidos podem ser reinstalados por:
 * Winget;
 * site oficial do desenvolvedor;
 * pacote de instalação da empresa.
-
+<a name="restauracao-sistema"></a>
 ### 12.3 Usar a Restauração do Sistema
 
 Para abrir a Restauração do Sistema:
@@ -1253,7 +1253,7 @@ rstrui.exe
 6. Confirme a restauração.
 
 A Restauração do Sistema pode reverter arquivos do sistema, programas, configurações e alterações no Registro sem apagar os arquivos pessoais tradicionais. Programas e drivers instalados depois do ponto selecionado podem ser removidos.
-
+<a name="ambiente-recuperacao"></a>
 ### 12.4 Usar o Ambiente de Recuperação
 
 Quando o Windows não inicia normalmente:
@@ -1262,7 +1262,7 @@ Quando o Windows não inicia normalmente:
 2. Abra **Solução de Problemas**.
 3. Entre em **Opções avançadas**.
 4. Utilize **Restauração do Sistema** ou outra ferramenta adequada.
-
+<a name="restaurar-backup"></a>
 ### 12.5 Restaurar backup ou reinstalar o Windows
 
 Em casos graves, pode ser necessário:
@@ -1274,7 +1274,7 @@ Em casos graves, pode ser necessário:
 * reinstalar o sistema operacional.
 
 ---
-
+<a name="solucao-problemas"></a>
 ## 13. Solução de problemas comuns
 
 ## 13.1 O WinScript não abre
@@ -1362,7 +1362,7 @@ Verifique se:
 7. Confirme que o problema não é causado por hardware ou driver.
 
 ---
-
+<a name="configuracao-conservadora"></a>
 ## 14. Modelo de configuração conservadora
 
 O modelo abaixo é apenas uma referência. Os nomes exatos podem variar conforme a versão do WinScript.
@@ -1408,7 +1408,7 @@ PERFORMANCE
 ```
 
 ---
-
+<a name="checklist-tecnicos"></a>
 ## 15. Modelo de checklist para técnicos
 
 ```text
@@ -1436,7 +1436,7 @@ PERFORMANCE
 ```
 
 ---
-
+<a name="boas-praticas"></a>
 ## 16. Boas práticas de segurança
 
 ### Utilize somente fontes oficiais
@@ -1487,7 +1487,7 @@ Não comprometa:
 Pequenos ganhos de desempenho raramente justificam uma redução significativa da segurança.
 
 ---
-
+<a name="perguntas-frequentes"></a>
 ## 17. Perguntas frequentes
 
 ### O WinScript é gratuito?
@@ -1542,7 +1542,7 @@ Marcar tudo geralmente aumenta o risco de:
 Sim, mas revise novamente as opções e verifique se elas ainda são adequadas à versão atual do Windows e da ferramenta.
 
 ---
-
+<a name="conclusao"></a>
 ## 18. Conclusão
 
 O WinScript pode ser útil para limpar, configurar, personalizar e otimizar o Windows, principalmente quando é utilizado de forma seletiva.
